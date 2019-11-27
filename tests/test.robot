@@ -17,7 +17,7 @@ ATC
     Comment    Create Webdriver    Remote    command_executor=http://localhost:4723/wd/hub    desired_capabilities=${caps}
     sleep    30
     Go To Url    https://www.ultimatix.net
-    Go To    https://www.ultimatix.net
+    #Go To    https://www.ultimatix.net
     AppiumLibrary.Wait Until Element Is Visible    id=form1    30
     AppiumLibrary.Input Text    id=form1    1289939
     #truth in data
