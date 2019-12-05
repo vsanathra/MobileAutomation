@@ -3,13 +3,9 @@ Library           AppiumLibrary
 Library           Selenium2Library
 Library           String
 Library           Collections
-Resource          Resource/CustomKeywords/GlobalVariables.robot
-Resource          Resource/CustomKeywords/keywords.robot
-Library           Resource/POMResources/xpaths.py
-Resource          Resource/POMResources/CustomAction.robot
 
 *** Test Cases ***
-ATC
+Sample Test Case
     Comment    &{options}    Create Dictionary    androidPackage=com.android.chrome
     Comment    &{caps}    Create Dictionary    chromeOptions=${options}
     Comment    Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.1    deviceName=emulator-5554    appPackage=com.android.chrome    appActivity=com.google.android.apps.chrome.Main
