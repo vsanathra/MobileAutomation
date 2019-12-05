@@ -2,10 +2,6 @@
 Library           AppiumLibrary
 Library           String
 Library           Collections
-Resource          Resource/CustomKeywords/GlobalVariables.robot
-Resource          Resource/CustomKeywords/keywords.robot
-Library           Resource/POMResources/xpaths.py
-Resource          Resource/POMResources/CustomAction.robot
 
 *** Test Cases ***
 Sample Test Case
